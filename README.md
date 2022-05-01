@@ -33,11 +33,11 @@ Note down The API Key and API Key Secret and update in .env file.
 
 * Install latest solidity version by running npm install solc and Dont forget to update this solidity version in truffle-config.
 
-Update Rinkeby test network details in truffle-config.js .
-Update your account mnemonic in .env file.
-Now run truffle console --network rinkeby to connect to Rinkeby Public test network.
-Run migrate command to deploy the contract on Rinkeby testnet.
-Run let art = await ArtCollectible.deployed().
-Run await art.claimItem('https://ipfs.io/ipfs/QmREBUVuoeX39eB9KiQjp25RFr2dhYF6zawpYXq1UPJXEz')
-Pass the correct metadata file IPFS address to claimItem.
-Run art.address to get contract address.
+* Update Rinkeby test network details in truffle-config.js .
+* Update your account mnemonic in .env file.
+* Now run truffle console --network rinkeby to connect to Rinkeby Public test network.
+* Run migrate command to deploy the contract on Rinkeby testnet.
+* Run let art = await ArtCollectible.deployed().
+* Run await art.claimItem('https://ipfs.io/ipfs/QmREBUVuoeX39eB9KiQjp25RFr2dhYF6zawpYXq1UPJXEz')
+* Pass the correct metadata file IPFS address to claimItem.
+* Run art.address to get contract address.
