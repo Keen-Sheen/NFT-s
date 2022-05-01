@@ -24,14 +24,14 @@ Create a account in Pinata (https://www.pinata.cloud/) and create an API Key.
 Click on top right profile picture -> API Keys -> New Key
 Note down The API Key and API Key Secret and update in .env file.
 
-Update the name of your image file in assets folder.
-Update filePath with your image filepath.
-Run node scripts/runScript command.
-This will call Pinata API's and will upload file to IPFS and a new file will be created in data folder ipfsHash.json and the Pinata response containing the ipfsHash will be populated in that file.
+* Update the name of your image file in assets folder.
+* Update filePath with your image filepath.
+* Run node scripts/runScript command.
+* This will call Pinata API's and will upload file to IPFS and a new file will be created in data folder ipfsHash.json and the Pinata response containing the ipfsHash will be populated in that file.
 
-Now create a metadata.json file with the details about your NFT. For Reference checkout data/metadata.json file . Update filePath with your metadata filepath. Again Run node scripts/runScript command. This will call Pinata API's and will upload metadata file to IPFS and the Pinata response containing the ipfsHash will be again populated in ipfsHash.json file.
+* Now create a metadata.json file with the details about your NFT. For Reference checkout data/metadata.json file . Update filePath with your metadata filepath. Again Run node scripts/runScript command. This will call Pinata API's and will upload metadata file to IPFS and the Pinata response containing the ipfsHash will be again populated in ipfsHash.json file.
 
-Install latest solidity version by running npm install solc and Dont forget to update this solidity version in truffle-config.
+* Install latest solidity version by running npm install solc and Dont forget to update this solidity version in truffle-config.
 
 Update Rinkeby test network details in truffle-config.js .
 Update your account mnemonic in .env file.
