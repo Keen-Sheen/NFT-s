@@ -1,5 +1,5 @@
 # NFT-s
-![An Image of NFT's](nft_logo.png)
+![An Image of NFT's](nft_logo.jpg)
 
 --------------------------
 ### Making NFT's using Solidity
